@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/weatherApp.css" />
+    <script
+      src="https://kit.fontawesome.com/3ea216e524.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>weatherApp</title>
+  </head>
+  <body>
+    <div class="search-button">
+      <input class="search" placeholder="Enter the city name" type="search" />
+      <button class="button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div class="icon-city">
+      <p><i class="fab fas fa-map-marker-alt"></i></p>
+      <p class="city">Search for a location</p>
+    </div>
+    <div class="icon-temp">
+      <img class="icon" src="" alt=" image_not_found" />
+      <p class="temp"></p>
+    </div>
+    <div class="humid-wind">
+      <div class="humidity">
+        <img src="/assets/humidity.png" alt="" />
+        <div>
+          <p class="humid">N/A</p>
+          <p>Humidity</p>
+        </div>
+      </div>
+      <div class="wind-speed">
+        <img src="/assets/wind.png" alt="" />
+        <div>
+          <p class="wind">N/A</p>
+          <p>Wind speed</p>
+        </div>
+      </div>
+    </div>
+    <script src="/src/weatherApp.js"></script>
+  </body>
+</html>
