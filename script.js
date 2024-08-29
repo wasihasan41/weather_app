@@ -27,23 +27,23 @@ let getLocation =async function () {
                 image.removeAttribute("src"); 
                 
         }
-        if (data.weather[0].icon === "01n") {
+        if (data.weather[0].icon === "01n" || data.weather[0].icon === "01d") {
                 image.setAttribute("src" ,"/assets/01d.png");
-        }else if (data.weather[0].icon === "02n") {
+        }else if (data.weather[0].icon === "02n" || data.weather[0].icon === "02d") {
                 image.setAttribute("src" ,"/assets/02d.png");
-        }else if (data.weather[0].icon === "03n") {
+        }else if (data.weather[0].icon === "03n" || data.weather[0].icon === "03d") {
                 image.setAttribute("src" ,"/assets/03d.png");
-        }else if (data.weather[0].icon === "04n") {
+        }else if (data.weather[0].icon === "04n" || data.weather[0].icon === "04d") {
                 image.setAttribute("src" ,"/assets/04d.png");
-        }else if (data.weather[0].icon === "09n") {
+        }else if (data.weather[0].icon === "09n" || data.weather[0].icon === "09d") {
                 image.setAttribute("src" ,"/assets/09d.png");
-        }else if (data.weather[0].icon === "10n") {
+        }else if (data.weather[0].icon === "10n" || data.weather[0].icon === "10d") {
                 image.setAttribute("src" ,"/assets/10d.png");
-        }else if (data.weather[0].icon === "11n") {
+        }else if (data.weather[0].icon === "11n" || data.weather[0].icon === "11d") {
                 image.setAttribute("src" ,"/assets/11d.png");
-        }else if (data.weather[0].icon === "13n") {
+        }else if (data.weather[0].icon === "13n" || data.weather[0].icon === "13d") {
                 image.setAttribute("src" ,"/assets/13d.png");
-        }else if (data.weather[0].icon === "50n") {
+        }else if (data.weather[0].icon === "50n" || data.weather[0].icon === "50d") {
                 image.setAttribute("src" ,"/assets/50d.png");
         }else{
                 console.log("no city")
